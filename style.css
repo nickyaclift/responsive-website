@@ -14,11 +14,6 @@ h3 {
 h1 {
   font-size: 96px;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 70px;
-  }
-}
 body {
   margin-top: 100px;
 }
@@ -37,6 +32,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+a:hover {
+  color: black;
 }
 
 .navigation-links {
@@ -104,4 +102,19 @@ p {
 
 .section-title {
   text-align: left;
+}
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .app-links {
+    display: block;
+  }
 }
